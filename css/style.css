@@ -1,0 +1,17 @@
+.header{
+	padding: 10px 5px;
+	background-color: #6ce288;
+	border-bottom: 4px solid #47c164;
+}
+
+.header p{
+	margin: -5px 0px -15px;
+	padding: 8px 65px;
+	font-size: 20pt;
+	font-family: Times, serif;
+	font-weight: bold;
+}
+
+.header small{
+	color: #00000078;
+}
