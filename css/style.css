@@ -1,3 +1,7 @@
+body{
+	background-color: #fbfffc;
+}
+
 /*Inicio Header*/
 .header{
 	padding: 10px 5px;
@@ -26,7 +30,18 @@
 	margin-bottom: 40px;
 }
 
+/*Inicio Table*/
 
+.container-table{
+	width: 1290px;
+}
+
+.table-mod{
+	background-color:#FFF;
+    border-style: double;
+    border-width: 3px 3px 3px 3px;
+}
+/*Fim Table*/
 /*Inicio Busca*/
 #custom-search-input{
     padding: 3px;
@@ -60,17 +75,32 @@
     font-size: 23px;
 }
 /*Fim Busca*/
+/*Inicio Tabela*/
+.mar-top-50{
+	margin-top: 50px;
+}
+.table-mod tr,th{ 
+	border-right: 1px solid #ddd; 
+	text-align: center;
+}
+
+.table-mod tr,td{ 
+	border: 1px solid #ddd; 
+}
+
+/*Fim Tabela*/
 /*Inicio Footer*/
 .footer {
 	background-color: #6CE288;
-	position:absolute; 
+	position:fixed; 
 	bottom:0; 
 	width:100%;
 }
 
 .footer p#text-footer{
-	padding: 5px 0px 5px;
+	padding: 2px 0px 2px;
 	margin: 0px;
 	font-weight: bold;
+	font-size: 10px;
 }
 /*Fim Footer*/
