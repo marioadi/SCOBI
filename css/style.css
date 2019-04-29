@@ -11,8 +11,8 @@ body{
 
 .header p{
 	margin: -5px 0px -15px;
-	padding: 8px 65px;
-	font-size: 20pt;
+	padding: 18px 65px 8px;
+	font-size: 25pt;
 	font-family: Times, serif;
 	font-weight: bold;
 }
@@ -20,10 +20,21 @@ body{
 .header small{
 	color: #00000078;
 }
+
+.img-livro{
+	position: absolute;
+	right: 650px;
+	top: -12px;
+	opacity: 0.5;
+}
 /*Fim Header*/
 
 .mar-top-40{
 	margin-top: 40px;
+}
+
+.mar-bot-20{
+	margin-bottom: 20px;
 }
 
 .mar-bot-40{

@@ -18,8 +18,9 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-xs-12 col-sm-12">
+					<img class="pull-right img-livro" src="img/livro.png" width="80" height="110" />
 					<div class="col-xs-12 col-sm-6">
-						<img class="pull-left" src="img/Logo-AST.png" width="50" height="50" />
+						<img class="pull-left" src="img/Logo-AST.png" width="80" height="80" />
 					</div>
 					<div class="col-xs-12 col-sm-6">
 						<p class="text-right">SCOBI</p>
