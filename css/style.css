@@ -5,7 +5,7 @@ body{
 /*Inicio Header*/
 .header{
 	padding: 10px 5px;
-	background-color: #6ce288;
+	background-color: #bcffcb;
 	border-bottom: 4px solid #47c164;
 }
 
@@ -23,7 +23,7 @@ body{
 
 .img-livro{
 	position: absolute;
-	right: 650px;
+	right: 610px;
 	top: -12px;
 	opacity: 0.5;
 }

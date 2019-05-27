@@ -12,13 +12,13 @@
     <!-- Tabela -->
     <link rel="stylesheet" href="datatables.net-bs/css/dataTables.bootstrap.min.css">
 </head>
-<body>
+<body style="background-image: url(img/background-cinza-trans.jpg);">
 	<!-- Inicio Header -->
 	<div class="header">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-xs-12 col-sm-12">
-					<img class="pull-right img-livro" src="img/livro.png" width="80" height="110" />
+					<!-- <img class="pull-right img-livro" src="img/livro.png" width="80" height="110" /> -->
 					<div class="col-xs-12 col-sm-6">
 						<img class="pull-left" src="img/Logo-AST.png" width="80" height="80" />
 					</div>
@@ -74,7 +74,7 @@
 						<?php
 						$sql_livros = $pdo->query("SELECT ASSUNTO, TITULO, AUTOR, CDD, CUTTER, ISBN, EDITORA, NOTAS, SERIE, REFERENCIAS,REMISSIVAS FROM consulta_livros LIMIT 0,10");
 							if($sql_livros->rowCount() > 0){
-								foreach ($sql_livros->fetchAll() as  $livros) {
+								foreach ($sql_livros->fetchAll() as $livros) {
 									$assunto = $livros['ASSUNTO'];
 									$titulo = $livros['TITULO'];
 									$autor = $livros['AUTOR'];
